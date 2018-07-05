@@ -18,10 +18,10 @@ cfg.authToken = process.env.TWILIO_AUTH_TOKEN
 // A Twilio number you control - choose one from:
 // https://www.twilio.com/user/account/phone-numbers/incoming
 // Specify in E.164 format, e.g. "+16519998877"
-cfg.twilioNumber = process.env.TWILIO_NUMBER || '+15126472652';
+cfg.twilioNumber = process.env.TWILIO_NUMBER 
 
 // The sales rep / agent's phone number
-cfg.agentNumber = process.env.AGENT_NUMBER || '+15128176776';
+cfg.agentNumber = process.env.AGENT_NUMBER;
 
 // Export configuration object
 module.exports = cfg;
